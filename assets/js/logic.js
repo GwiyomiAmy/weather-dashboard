@@ -77,7 +77,7 @@ const buttonClickHandler = function (event) {
 
 // get lat and lon
 const getLL = function (city) {
-  const apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${key}`;
+  const apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${key}`;
   //console.log(city);
 
   fetch(apiUrl)
